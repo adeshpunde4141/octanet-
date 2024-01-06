@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.container{
+    max-width:80vw;
+}
+.navbar{
+    display:flex;
+    height: 70px;
+}
+.navbar li{
+    list-style: none;
+    margin:0 12px;
+}
+.topleft{
+    width: 50%  ;
+    height: 155px;
+}
+.title1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar li a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.topright{
+    width: 50%  ;
+    height: 155px;
+}
+.section1{
+   height:  70vh ;
+}
+.section1 h1{
+    font-size: 1rem;
+    color: #1738a5;
+}
+.logo
+{
+    font-size: 1.3rem;
+}
+.dumbelimg{
+    width: 200px;
+
+}
+.topright .gymimg{
+    margin: 0px 0px;
+    width:250px;
+}
+.section2 h1{
+    font-size: 2rem;
+}
+.section2{
+    padding: 13px;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.box {
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(12, 2, 54);
+    border-radius: 8px;
+}
+.box h2{
+    font-size: 1.2rem;
+    padding: 15px 0;
+}
+.box .chkimg{
+    width: 12px;
+    height:12px;
+    margin-right:2px;
+}
+.highlighted{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+    padding-left:12px;
+    margin:12px 2px;
+}
+
+.box1 ul{
+    list-style-type: none;
+}
+.box1 ul li{
+    padding-left:12px;
+    margin:12px 2px;
+}
+.box1:hover {
+    box-shadow: 10px 10px 12px 10px rgba(0,0,0,0.2)
+}
+
+.box1 {
+padding: 8px 0;
+margin: 12px 22px;
+min-width: 20vw;
+border: 1px solid rgb(75, 48, 179);
+border-radius: 8px;
+background-color: #542fdb;
+color:white;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.section3 table{
+    width:80%;
+    margin-bottom: 120px;
+    margin-top: 5px;
+    border-collapse: collapse;
+}
+
+.section3 table th{
+    width:23vw;
+    border-bottom: 1px solid black;
+    padding: 15px 0;
+}
+
+.section3 table td{
+    border-bottom: 1px solid black;
+}
+.section3 h1{
+    font-size: 2rem;
+}
+
+.section3{
+    padding:23px
+}
+
+.section4{
+    padding:23px
+}
+
+.section4 h1{
+    font-size: 2rem;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+}
